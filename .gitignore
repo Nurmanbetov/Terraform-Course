@@ -18,3 +18,5 @@ FUTURE-TOPICS
 # Ignore .pem files
 #*.pem
 **/*.ppk
+**/*.pem
+**/*.hcl
