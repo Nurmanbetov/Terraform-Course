@@ -11,7 +11,7 @@ data "aws_ec2_instance_type_offerings" "my_ins_type1" {
   }
   location_type = "availability-zone"
 }
-
+# "eu-west-3" - Paris. ["eu-west-3a", "e"]
 
 # Output
 # output "output_v1_1" {

@@ -16,7 +16,7 @@ resource "aws_instance" "myec2vm" {
   key_name = var.instance_keypair
   vpc_security_group_ids = [ aws_security_group.vpc-ssh.id, aws_security_group.vpc-web.id ]
 
-  for_each = toset(data.aws_availability_zones.my_azones.names)
+  for_each = toset(data.aws_availability_zones.my_azones.names) 
   availability_zone = each.key
   tags = {
     "Name" = "for_each-Demo-${each.value}"

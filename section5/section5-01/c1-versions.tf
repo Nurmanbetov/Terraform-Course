@@ -1,7 +1,7 @@
 #Terrform Block
 
 terraform {
-  required_version = "~> 1.5.0"
+  required_version = "~> 1.5.0" 
   required_providers {
     aws = {
         source = "hashicorp/aws"
@@ -14,4 +14,5 @@ terraform {
 provider "aws" {
     # region = ""
   region = var.aws_region
+  # region = "eu-west-3"
 }

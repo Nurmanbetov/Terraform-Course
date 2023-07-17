@@ -1,0 +1,4 @@
+VPC created on and VPC ID: vpc-083b3241ccc497478
+VPC created on and VPC ID: vpc-0536de62ae22a039b
+VPC created on and VPC ID: vpc-08a33be537190f2cb
+VPC created on and VPC ID: vpc-0aefefc64a3487dec
